@@ -1,0 +1,221 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--pale-violet: hsl(276, 100%, 81%);
+	--moderate-violet: hsl(275, 55%, 52%);
+	--desaturated-dark-violet: hsl(271, 15%, 43%);
+	--Grayish-Blue: hsl(206, 6%, 79%);
+	--Very-Dark-Desaturated-Violet: hsl(271, 36%, 24%);
+	--Dark-Grayish-Violet: hsl(270, 7%, 64%);
+	--White: hsl(0, 0%, 100%);
+	--Light-Grayish-Violet: hsl(270, 20%, 96%);
+	--Very-Light-Magenta: hsl(289, 100%, 72%);
+}
+body {
+	min-height: 100vh;
+	min-width: 100vh;
+	display: grid;
+	font: "Rubik";
+}
+
+.bkg-object {
+	width: 510px;
+	height: 1018px;
+	border-radius: 0 0 255px 255px;
+	background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+}
+
+.content {
+	display: inline-block;
+	place-content: center;
+	font-family: "Rubik";
+	color: var(--Dark-Grayish-Violet);
+	line-height: 28px;
+	font-weight: 400;
+	text-align: left;
+	margin: auto;
+
+	position: absolute;
+	width: 445px;
+	height: 183px;
+	left: 735px;
+	top: 309px;
+}
+h1 {
+	color: var(--Very-Dark-Desaturated-Violet);
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.iphone {
+	position: absolute;
+	width: 247px;
+	height: 525px;
+	border: 11px solid white;
+	border-radius: 30px;
+	background-color: #f5f3f7;
+	left: 372.5px;
+	top: 159px;
+}
+.rectangle {
+	position: relative;
+	width: 129px;
+	height: 20px;
+	background: white;
+	border-radius: 0px 0px 14px 14px;
+	margin: auto;
+}
+.rectangle-big {
+	position: relative;
+	width: 225px;
+	height: 70px;
+	background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+	box-shadow: 0px 0px 13px5rgba (62, 39, 83, 0.251202);
+	border-radius: 20px 20px 6px 6px;
+	margin-top: 0;
+}
+.avatar {
+	position: relative;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	margin-right: 8px;
+}
+.contact {
+	display: flex;
+	align-items: center;
+	position: relative;
+	line-height: 11px;
+	margin-left: 10px;
+	margin-top: 12px;
+}
+.contact span {
+	font-size: 11px;
+	font-weight: 500;
+	color: #ffffff;
+	margin-bottom: 0;
+}
+.contact p {
+	display: inline-block;
+	font-size: 8px;
+	font-weight: 400;
+	color: var(--pale-violet);
+	margin-bottom: 0;
+}
+i.arrow {
+	color: white;
+	margin-right: 8px;
+}
+i.dots {
+	color: #ffffff;
+	margin-left: auto;
+	margin-right: 17px;
+}
+.text {
+	display: inline-block;
+	background-color: #eee5f4;
+	color: #9341c8;
+	font-size: 8px;
+	font-weight: 500;
+	border-radius: 10px 10px 4px 10px;
+	padding: 6px;
+	margin: 8px 100px 0 8px;
+}
+.text p {
+	margin-bottom: 0;
+}
+
+.images-right {
+	position: relative;
+	display: flex;
+	width: 40px;
+	height: 40px;
+	margin-top: 16px;
+	margin-left: 80px;
+}
+.images-right img {
+	display: flex;
+	border-radius: 10px;
+	justify-content: space-between;
+	margin-left: 5px;
+}
+.bubble-right {
+	background-color: var(--White);
+	color: var(--desaturated-dark-violet);
+	margin: 8px 8px 0 100px;
+}
+.bubble-right-last {
+	margin-left: 135px;
+}
+.lg-bubble {
+	display: flex;
+	background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+	box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
+	color: var(--White);
+	margin-right: 0px;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 60px;
+	font-weight: 400;
+}
+.amount {
+	font-size: 12px;
+	font-weight: 700;
+	margin-left: 35px;
+}
+.fa-circle {
+	color: #e472ff;
+}
+.amnt-sec {
+	margin-left: 52px;
+}
+.input-grp .message-input {
+	position: relative;
+	width: 100%;
+}
+
+.input-grp .message-input input {
+	width: 90%;
+	padding-right: 30px;
+	/* other styles */
+	text-decoration: none;
+	position: relative;
+	width: 213px;
+	height: 34px;
+	border-radius: 17px;
+	border: none;
+	font-size: 9px;
+	font-weight: 400;
+	text-align: left;
+	margin: 6px;
+	margin-top: 13px;
+	padding: 13px;
+}
+
+.input-grp .message-input i {
+	position: absolute;
+	right: 10px;
+	top: 55%;
+	transform: translateY(-50%);
+	/* other styles */
+}
+.fa-lg {
+	color: var(--Very-Dark-Desaturated-Violet);
+}
+.bkgd-scnd-object {
+	width: 510px;
+	height: 600px;
+	border-radius: 255px 255px 0 0;
+
+	background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+	mix-blend-mode: normal;
+	z-index: -5;
+	top: 119px;
+	left: 150px;
+	position: absolute;
+	opacity: 0.03;
+}
